@@ -1,4 +1,4 @@
-@media screen and (max-width: 393px) {
+@media screen and (min-width: 320px)  {
     /* ----- HEADER MOBILE ----- */
     .header-content{
         justify-content: space-around;
@@ -126,6 +126,7 @@
     }
 
     /* ----- FOOTER ----- */
+
     footer .footer-content{
         width: 360px;
         display: flex;
@@ -143,7 +144,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 300px;
+        width: 90%;
     }
     
     .redes-sociais .fa-brands{
