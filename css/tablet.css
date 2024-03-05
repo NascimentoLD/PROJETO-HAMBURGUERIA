@@ -1,0 +1,99 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* ----- HEADER ----- */
+    .header-content{
+        justify-content: space-around;
+    }
+   
+    .header-navbar ul li a, .header-btn{
+        display: none;
+    }
+
+    .header-navbar img{
+        width: 180px;
+    }
+
+    .header-menu{
+        display: block;
+        color: var(--white);
+    }
+
+    .header-menu .fa-bars{
+        font-size: 48px;
+    }
+
+    /* ----- SECTION HERO ----- */
+    .hero{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-txt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+
+    .hero-txt h2{
+        width: 80%;
+        font-size: 4.5rem;
+        line-height: 51px;
+        text-align: center;
+    }
+
+    .hero-txt p{
+        width: 80%;
+        font-size: 1.8rem;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .hero-txt a{
+        width: 50%;
+        height: 80px;
+        font-size: 1.5rem;
+    }
+
+    .hero-img-burguer{
+        width: 80%;        
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-img-burguer img{
+        width: 70%;
+        padding-top: 10px;
+    }
+
+    /* ----- SECTION SEARCH BAR */
+
+    .search-bar{
+        width: 100%;    
+        padding: 80px 20px 20px 20px;
+    }
+
+    .search-bar-txt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .search-bar-txt h2{
+        width: 344px;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .search-sides{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+}
