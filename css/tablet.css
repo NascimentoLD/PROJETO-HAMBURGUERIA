@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 922px) {
     /* ----- HEADER ----- */
     .header-content{
         justify-content: space-around;
@@ -128,14 +128,18 @@
 
     .burguers-back-light, .burguers-back-dark{
         width: 80%;
-        height: 250px;
+        height: 275px;
+    }
+
+    .burguers-back-light > img{
+        width: 20%;
     }
 
     .burguers-back-dark{
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 20px;
+        padding-top: 70px;
         padding-left: 0;
         gap: 16px;
     }
